@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* || REST */
 * {
@@ -19,12 +19,12 @@ img {
   --WHITE: #fff;
   --BLACK: #000;
   --GREY-950: #131518;
-  --GREY-900: #262E38;
-  --GREY-500: #969FAD;
-  --ORANGE: #FC7614; 
+  --GREY-900: #262e38;
+  --GREY-500: #969fad;
+  --ORANGE: #fc7614;
 
   /* GRADIENTS */
---RADIAL-GRAD: radial-gradient(circle at center, #232A34, #181E27);
+  --RADIAL-GRAD: radial-gradient(circle at center, #232a34, #181e27);
 
   /* TYPOGRAPHY */
   --FF: "Overpass", sans-serif;
@@ -32,18 +32,17 @@ img {
   --TEXT-PRESET-1: bold 1.75rem/2.1875rem var(--FF);
   --TEXT-PRESET-2: bold 1.5rem/1.875rem var(--FF);
   --TEXT-PRESET-3: bold 1rem/1.5rem var(--FF);
-  --TEXT-PRESET-4-BOLD: bold .9375rem/1.1875rem (--FF);
-  --TEXT-PRESET-4: normal .9375rem/1.5rem var(--FF);
-  --TEXT-PRESET-5-BOLD: bold .875rem/1.125rem var(--FF);
-  --TEXT-PRESET-5-SEMI-BOLD: 600 .875rem/1.5rem var(--FF);
+  --TEXT-PRESET-4-BOLD: bold 0.9375rem/1.1875rem (--FF);
+  --TEXT-PRESET-4: normal 0.9375rem/1.5rem var(--FF);
+  --TEXT-PRESET-5-BOLD: bold 0.875rem/1.125rem var(--FF);
+  --TEXT-PRESET-5-SEMI-BOLD: 600 0.875rem/1.5rem var(--FF);
   --TEXT-PRESET-5: normal 0.875rem/1.375rem var(--FF);
 
   /*typography letter-spacing */
   --TEXT-PRESET-3-LS: 0.0125rem;
   --TEXT-PRESET-4-BOLD-LS: 0.125rem;
   --TEXT-PRESET-5-BOLD-LS: 0.1169rem;
-  --TEXT-PRESET-5-SEMI-BOLD-LS: 0.0106rem ;
-
+  --TEXT-PRESET-5-SEMI-BOLD-LS: 0.0106rem;
 }
 
 /* || UTILITY CLASSES */
@@ -167,7 +166,7 @@ h2 {
   color: var(--GREY-500);
 }
 
-.rating__input:checked + .rating__number {
+.rating__button.active .rating__number {
   background-color: var(--ORANGE);
   color: var(--GREY-900);
 }
@@ -185,9 +184,6 @@ h2 {
   line-height: 45px;
   letter-spacing: var(--TEXT-PRESET-5-BOLD-LS);
 }
-
-
-
 
 /* THANKS-HTML */
 
