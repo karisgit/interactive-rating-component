@@ -234,3 +234,125 @@ h2 {
   color: var(--GREY-500);
   font: var(--TEXT-PRESET-5);
 }
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  /* rating-container */
+  .rating__container {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    padding: 2rem 1.5rem;
+  }
+
+  /* rating-header */
+
+  .rating_star {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 2rem;
+  }
+
+  .rating_star img {
+    max-width: 16.75px;
+  }
+
+  .rating_title {
+    font: var(--TEXT-PRESET-1);
+  }
+
+  .rating__description {
+    font: var(--TEXT-PRESET-4);
+    max-width: 351px;
+  }
+
+  /* ratinf-form */
+
+  .rating__form {
+    gap: 2rem;
+  }
+
+  .rating__buttons {
+    width: 351px;
+  }
+
+  .rating__input {
+    width: 51px;
+    height: 51px;
+  }
+
+  .rating__number {
+    width: 51px;
+    height: 51px;
+    font: var(--TEXT-PRESET-3);
+    line-height: 51px;
+    letter-spacing: var(--TEXT-PRESET-3-LS);
+  }
+
+  .rating__submit {
+    width: 351px;
+    font: var(--TEXT-PRESET-5-SEMI-BOLD);
+    letter-spacing: var(--TEXT-PRESET-5-BOLD-LS);
+  }
+
+    /* || THANKS-HTML */
+  /* THANKS-CONTAINER */
+  .thanks__container {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    padding: 2rem 2.5rem;
+    gap: 2rem;
+  }
+
+  /* THANKS-STATUS */
+  .thank__status img {
+    max-width: 162px;
+  }
+
+  /* THANKS-MESSAGE */
+  .thanks__rating {
+    width: 193px;
+    font: var(--TEXT-PRESET-4);
+    line-height: 32px;
+    border-radius: 22.4px;
+    margin-bottom: 2rem;
+  }
+
+  .thanks__title {
+    font: var(--TEXT-PRESET-1);
+  }
+
+  .thanks__description {
+    max-width: 340px;
+    font: var(--TEXT-PRESET-4);
+  }
+}
+
+@media screen and (min-width: 992px) {
+    /* || INDEX-HTML */
+  /* RATING-CONTAINER */
+  .rating__container {
+    width: 412px;
+    height: 416px;
+  }
+
+  /* RATING-HEADER */
+  .rating__star img {
+    max-width: 16.75px;
+  }
+
+  /* RATING-FORM */
+  label:hover .rating__number,
+  label:focus-visible .rating__number,
+  .rating__submit:hover,
+  .rating__submit:focus-visible {
+    background-color: var(--WHITE);
+    cursor: pointer;
+  }
+
+  label:hover .rating__number,
+  label:focus-visible .rating__number {
+    color: var(--GREY-900);
+  }
+}
